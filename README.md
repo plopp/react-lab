@@ -16,5 +16,10 @@ npm install --save-dev babel-core
 npm install --save-dev babel-preset-es2015
 npm install --save-dev babel-preset-react
 
-#start server using
-webpack-dev-server --progress --colors
+#start dev-server using
+npm run dev
+
+#start compile
+npm run start
+
+#webpage is at 0.0.0.0:8082/webpack-dev-server/dist/index.html
